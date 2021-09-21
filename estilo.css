@@ -1,64 +1,32 @@
-.Encabezado {
+.Nav {
     width: 100%;
     height: 100%;
+    background-color: rgb(6, 233, 25);
     display: table;
-    margin: auto;
-    top: 0;
-    background-color: lightcoral;
-}  
+    margin: 0%;
+    padding: 0%;border: none;
+    text-align: right;
+}
 
- .Contenedor {
+.Contenedor {
     width: 100%;
     height: 100%;
-    display: inline-block;
+    background-color: aqua;
+    overflow: auto;
 }
 
 .Pfizer {
     width: 50%;
-    height: 100%;
-    background-color: aqua;
+    height: 80%;
+    background-color: blue;
+    display: inline-flex;
     float: left;
+
 }
 
 .Aztrazeneca {
     width: 50%;
-    height: 100%;
-    background-color: blue;
+    height: 80%;
+    background-color: rgb(105, 105, 240);
     float: right;
-}
-
-.Moderna {
-    width: 50%;
-    height: 100%;
-    background-color: rgba(92, 190, 47, 0.733);
-    float: left;
-}
-
-.Janssen {
-    width: 50%;
-    height: 100%;
-    background-color: rgb(255, 0, 212);
-    float: right;
-}
-
-.Sputnik {
-    width: 50%;
-    height: 100%;
-    background-color: rgb(255, 30, 0);
-    float: left;
-}
-
-.Psinopharm {
-    width: 50%;
-    height: 100%;
-    background-color: rgb(251, 255, 0);
-    float: right;
-}
-
-.Sinovac {
-    width: 50%;
-    height: 100%;
-    background-color: rgb(9, 255, 0);
-    text-align: center;
-    float: unset;
 }
