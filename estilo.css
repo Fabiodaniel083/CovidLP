@@ -1,0 +1,64 @@
+.Encabezado {
+    width: 100%;
+    height: 100%;
+    display: table;
+    margin: auto;
+    top: 0;
+    background-color: lightcoral;
+}  
+
+ .Contenedor {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Pfizer {
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+}
+
+.Aztrazeneca {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    float: right;
+}
+
+.Moderna {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(92, 190, 47, 0.733);
+    float: left;
+}
+
+.Janssen {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 0, 212);
+    float: right;
+}
+
+.Sputnik {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 30, 0);
+    float: left;
+}
+
+.Psinopharm {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(251, 255, 0);
+    float: right;
+}
+
+.Sinovac {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(9, 255, 0);
+    text-align: center;
+    float: unset;
+}
